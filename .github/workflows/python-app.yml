@@ -52,7 +52,7 @@ jobs:
       run: |
         sudo apt-get install -y openmpi-bin
         pip install .
-        pip install nbformat
+        pip install nbformat mpi4py
     - name: Lint with flake8
       run: |
         mpirun --version
