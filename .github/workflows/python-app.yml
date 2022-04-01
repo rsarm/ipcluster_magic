@@ -55,4 +55,5 @@ jobs:
     - name: Lint with flake8
       run: |
         mpirun --version
+        ipython examples/osu_bw_mpi4py.ipynb
 
